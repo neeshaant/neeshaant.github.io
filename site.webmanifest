@@ -1,0 +1,9 @@
+{
+  "name": "Nishant Tripathi — QA Engineer",
+  "short_name": "Nishant Tripathi",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "theme_color": "#0f2e28",
+  "background_color": "#0f2e28",
+  "display": "standalone",
+  "start_url": "/"
+}

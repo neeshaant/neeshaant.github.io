@@ -1,0 +1,15 @@
+{
+  "name": "neeshaant.github.io",
+  "private": true,
+  "description": "Portfolio of Nishant Tripathi, QA Engineer",
+  "scripts": {
+    "lint:html": "html-validate index.html",
+    "lint:js": "node --check assets/js/data.js && node --check assets/js/main.js",
+    "test": "npm run lint:js && node scripts/check-site.mjs && npm run lint:html",
+    "build": "rm -rf _site && mkdir _site && cp -r index.html favicon.svg site.webmanifest robots.txt sitemap.xml .nojekyll assets _site/",
+    "start": "npx --yes serve ."
+  },
+  "devDependencies": {
+    "html-validate": "^9.0.0"
+  }
+}
